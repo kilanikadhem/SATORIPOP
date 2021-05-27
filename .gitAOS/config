@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/kilanikadhem/AOSTEST.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[credential]
+	username = kilanikadhem
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
